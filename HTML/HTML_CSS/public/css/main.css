@@ -1,0 +1,9 @@
+.row{
+    background-color: lightblue;
+    clear: both;
+}
+.col{
+    background-color: lightcyan;
+    padding: 2px;
+    float: left;
+}
