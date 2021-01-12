@@ -46,4 +46,4 @@ function outer(obj){
 b = {name : "john"};
 const out = outer(b);
 out();
-// console.log("PULL Testing")
+console.log("PULL Testing")
