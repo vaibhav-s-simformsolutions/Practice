@@ -1,0 +1,483 @@
+{
+    "catalogs": [
+        {
+            "dataProducts": [
+                {
+                    "cached": true,
+                    "description": "The CCHS is a cross-sectional survey that collects information related to health status, health care utilization and health determinants for the Canadian population. The survey is offered in both official languages. It relies upon a large sample of respondents and is designed to provide reliable estimates at the health region level every 2 years.",
+                    "id": "pums_cchs_2017",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-07-15T00:26:17.651Z",
+                    "name": "Canadian Community Health Survey, 2017-2018: Annual Component",
+                    "uri": "e4767a90-9e8f-47df-9d56-cf2a8264b32a"
+                },
+                {
+                    "cached": true,
+                    "citation": "Canadian Perspective Survey Series 1: Impacts of COVID-19  [Public use microdata file] Ottawa, Ontario: Statistics Canada [producer] Ottawa, Ontario: Data Liberation Initiative, Statistics Canada [distributor]",
+                    "description": "<p>Conducted online from From March 29 to April 3 2020, this survey aims at understanding the impact of the COVID-19.</p><p>This survey is the first in the Canadian Perspectives Survey Series (CPSS), a set of short, online surveys to be used to collect information on the knowledge and behaviours of residents of the 10 Canadian provinces. This information is used by government organizations, such as the Public Health Agency of Canada and Employment and Social Development Canada, and other types of organizations to evaluate the need for health and social services, as well as economic support during and after the pandemic.</p><p>All surveys in the series will be asked of Statistics Canada’s probability panel. The probability panel for the CPSS is a new pilot project initiated in 2019. An important goal of the CPSS is to directly collect data from Canadians in a timely manner in order to inform policy makers and be responsive to emerging data needs. The CPSS is designed to produce data at a national level (excluding the territories).</p>",
+                    "id": "pums_cpss_01",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-11-17T06:01:02.398Z",
+                    "name": "Canadian Perspective Survey Series 1: Impacts of COVID-19",
+                    "provenance": "This data product and metadata is sourced from CSV, DDI, and documentation files made available by <a href='https://odesi.ca/' target='_blank'>ODESI</a> and the <a href='https://www.statcan.gc.ca/eng/dli/dli' target='_blank'>Data Liberation Initative</a>.",
+                    "uri": "27bd68be-7fe1-48c0-8eac-6e536dee217c"
+                },
+                {
+                    "cached": true,
+                    "citation": "Statistics Canada. 2020. Canadian Perspective Survey Series 2:  Monitoring the Effects of COVID-19  [Public use microdata file] Ottawa, Ontario: Statistics Canada [producer] Ottawa, Ontario: Data Liberation Initiative, Statistics Canada [distributor]",
+                    "description": "<p>The second survey of the CPSS is CPSS2 - Monitoring the Effects of COVID-19. It was administered from May 4, 2020 until May 10, 2020. </p><p>The Canadian Perspectives Survey Series (CPSS) is a set of short, online surveys beginning in March 2020 that will be used to collect information on the knowledge and behaviours of residents of the 10 Canadian provinces. All surveys in the series will be asked of Statistics Canada’s probability panel. The probability panel for the CPSS is a new pilot project initiated in 2019. An important goal of the CPSS is to directly collect data from Canadians in a timely manner in order to inform policy makers and be responsive to emerging data needs. The CPSS is designed to produce data at a national level (excluding the territories).</p>",
+                    "id": "pums_cpss_02",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-11-17T06:01:29.341Z",
+                    "name": "Canadian Perspective Survey Series 2: Monitoring the Effects of COVID-19",
+                    "provenance": "This data product and metadata is sourced from CSV, DDI, and documentation files made available by <a href='https://odesi.ca/' target='_blank'>ODESI</a> and the <a href='https://www.statcan.gc.ca/eng/dli/dli' target='_blank'>Data Liberation Initative</a>.",
+                    "uri": "331232e5-5282-4e95-8b6f-cd135596cf32"
+                },
+                {
+                    "cached": true,
+                    "citation": "Statistics Canada. 2020. Canadian Perspective Survey Series 3: Resuming Economic and Social Activities During COVID-19  [Public use microdata file] Ottawa, Ontario: Statistics Canada [producer] Ottawa, Ontario: Data Liberation Initiative, Statistics Canada [distributor]",
+                    "description": "<p>The third survey of the CPSS is CPSS3 – Resuming Economic and Social Activities During COVID-19. It was administered from June 15, 2020 until June 21, 2020.</p><p>The Canadian Perspectives Survey Series (CPSS) is a set of short, online surveys beginning in March 2020 that will be used to collect information on the knowledge and behaviours of residents of the 10 Canadian provinces. All surveys in the series will be asked of Statistics Canada’s probability panel. The probability panel for the CPSS is a new pilot project initiated in 2019. An important goal of the CPSS is to directly collect data from Canadians in a timely manner in order to inform policy makers and be responsive to emerging data needs. The CPSS is designed to produce data at a national level (excluding the territories).</p>",
+                    "id": "pums_cpss_03",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-11-17T06:01:44.04Z",
+                    "name": "Canadian Perspective Survey Series 3: Resuming Economic and Social Activities During COVID-19",
+                    "provenance": "This data product and metadata is sourced from CSV, DDI, and documentation files made available by <a href='https://odesi.ca/' target='_blank'>ODESI</a> and the <a href='https://www.statcan.gc.ca/eng/dli/dli' target='_blank'>Data Liberation Initative</a>.",
+                    "uri": "45270580-0b02-431d-bb15-d42216a61bde"
+                },
+                {
+                    "cached": true,
+                    "citation": "Statistics Canada (2020). Canadian Perspective Survey Series 4, 2020: Information Sources Consulted During the Pandemic. [public-use microdata file]. Ottawa, Ontario: Statistics Canada [producer]; Ottawa, Ontario: Data Liberation Initiative, Statistics Canada [distributor].",
+                    "description": "<p>The fourth survey of the CPSS is CPSS4 – Information Sources Consulted During the Pandemic. It was administered from July 20, 2020 until July 26, 2020.</p><p>The Canadian Perspectives Survey Series (CPSS) is a set of short, online surveys beginning in March 2020 that will be used to collect information on the knowledge and behaviours of residents of the 10 Canadian provinces. All surveys in the series will be asked of Statistics Canada’s probability panel. The probability panel for the CPSS is a new pilot project initiated in 2019. An important goal of the CPSS is to directly collect data from Canadians in a timely manner in order to inform policy makers and be responsive to emerging data needs. The CPSS is designed to produce data at a national level (excluding the territories).</p>",
+                    "id": "pums_cpss_04",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-11-17T06:02:17.749Z",
+                    "name": "Canadian Perspective Survey Series 4, 2020: Information Sources Consulted During the Pandemic",
+                    "provenance": "This data product and metadata is sourced from CSV, DDI, and documentation files made available by <a href='https://odesi.ca/' target='_blank'>ODESI</a> and the <a href='https://www.statcan.gc.ca/eng/dli/dli' target='_blank'>Data Liberation Initative</a>.",
+                    "uri": "13276c0c-1167-4349-9b02-b0f18f59c9c3"
+                },
+                {
+                    "cacheLastCleared": "2020-12-08T16:51:07.055Z",
+                    "cached": true,
+                    "citation": "Google LLC \"Google COVID-19 Community Mobility Reports\". <a href=\"https://www.google.com/covid19/mobility/\" target=\"_blank\">https://www.google.com/covid19/mobility </a> Accessed: 2020-12-06.",
+                    "description": "Canada Provinces and Territories level dataset (other geographies removed). The <a href='https://www.google.com/covid19/mobility/' target='_blank'>Google Community Mobility Reports</a> aim to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.",
+                    "id": "google_mobility_ca",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-08T16:51:06.625Z",
+                    "name": "Google COVID-19 Community Mobility Reports: Canada ",
+                    "note": "Changes for each day are compared to a baseline value for that day of the week: <ul><li>The baseline is the median value, for the corresponding day of the week, during the 5-week period Jan 3–Feb 6, 2020.</li><li>The datasets show trends over several months with the most recent data representing approximately 2-3 days ago—this is how long it takes to produce the datasets.</li></ul> More information regarding the data can be found on <a href=\"https://www.google.com/covid19/mobility/data_documentation.html?hl=en\" target=\"_blank\">Google's CSV Documentation Page</a>. ",
+                    "provenance": "",
+                    "uri": "608d3015-44fb-4d41-8740-2d08ce7a8fa6"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T07:10:03.738Z",
+                    "cached": true,
+                    "citation": "Government of Canada. <a href=\"https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html\" target=\"_blank\">Coronavirus disease (COVID-19): Outbreak update</a>",
+                    "description": "Provincial level COVID-19 case information collected and published by the Canadian government. Each record measures confirmed and probable cases, tests performed, recoveries, and deaths for a province on a specific date.",
+                    "id": "ca_gov_cases",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:24.381Z",
+                    "name": "Government of Canada COVID-19",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations  applied to the <a href=\"https://health-infobase.canada.ca/src/data/covidLive/covid-19.csv\" target=\"_blank\">CSV download</a> provided by the Government of Canada on their  <a href=\"https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html\" target=\"_blank\">Coronavirus disease (COVID-19): Outbreak update website</a>. The data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The source data includes aggregate records for all of Canada. These are removed as these values can be computed.</li><li>The source variables <em>numrecovered</em> and <em>percentrecovered</em> had a number of \"N/A\" values that have been replaced with empty (NULL) values. These variables were mapped to <em>cnt_recovered</em> and <em>pct_recovered</em> in this data product.</li><li>The source variable <em>pruid</em> has an extra code (99 Repatriated travellers) that keeps it from lining up with the standard geographic codes published by StatsCanada. To alleviate this the <em>pruid</em> field has been split into <em>ca_provterr</em> where 99 is null, and <em>ca_covid19_geo</em> which preserves the original value of 99.</li><li>The source variable <em>date</em> is formatted as DD-MM-YYYY, this is reformatted to YYYY-MM-DD (ISO 8601) and renamed as <em>date_stamp</em> in this data product.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/ca/gov/cases\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "466f1f0b-fcc8-4eb9-9371-c6a6252832c5"
+                },
+                {
+                    "cached": true,
+                    "description": "<p>Conducted online from From March 29 to April 3 2020, this survey aims at understanding the impact of the COVID-19.</p><p>This survey is the first in the Canadian Perspectives Survey Series (CPSS), a set of short, online surveys to be used to collect information on the knowledge and behaviours of residents of the 10 Canadian provinces. This information is used by government organizations, such as the Public Health Agency of Canada and Employment and Social Development Canada, and other types of organizations to evaluate the need for health and social services, as well as economic support during and after the pandemic.</p><p>All surveys in the series will be asked of Statistics Canada’s probability panel. The probability panel for the CPSS is a new pilot project initiated in 2019. An important goal of the CPSS is to directly collect data from Canadians in a timely manner in order to inform policy makers and be responsive to emerging data needs. The CPSS is designed to produce data at a national level (excluding the territories).</p>",
+                    "id": "pums_icc_mh_202006",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-22T03:20:32.693Z",
+                    "name": "Impacts of COVID-19, 2020:  Mental Health (ICC-MH): Crowdsource file",
+                    "uri": "7430ace3-6203-4132-a6e2-47b260df612c"
+                },
+                {
+                    "cacheLastCleared": "2020-11-17T03:54:56.874Z",
+                    "cached": true,
+                    "description": "The Labour Force Survey provides estimates of employment and unemployment which are among the timeliest and important measures of performance of the Canadian economy. With the release of the survey results only 10 days after the completion of data collection, the LFS estimates are the first of the major monthly economic data series to be released. The Canadian Labour Force Survey was developed following the Second World War to satisfy a need for reliable and timely data on the labour market. Information was urgently required on the massive labour market changes involved in the transition from a war to a peace-time economy. The main objective of the LFS is to divide the working-age population into three mutually exclusive classifications - employed, unemployed, and not in the labour force - and to provide descriptive and explanatory data on each of these. LFS data are used to produce the well-known unemployment rate as well as other standard labour market indicators such as the employment rate and the participation rate. The LFS also provides employment estimates by industry, occupation, public and private sector, hours worked and much more, all cross-classifiable by a variety of demographic characteristics. Estimates are produced for Canada, the provinces, the territories and a large number of sub-provincial regions. For employees, wage rates, union status, job permanency and workplace size are also produced. These data are used by different levels of government for evaluation and planning of employment programs in Canada. Regional unemployment rates are used by Employment and Social Development Canada to determine eligibility, level and duration of insurance benefits for persons living within a particular employment insurance region. The data are also used by labour market analysts, economists, consultants, planners, forecasters and academics in both the private and public sector.",
+                    "id": "pums_lfs",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-11-17T03:54:49.535Z",
+                    "name": "PUMS: Canada Labour Force Survey (2018-01 to Latest)",
+                    "note": "Because missing values are removed from this dataset, any form of non-response (e.g. valid skip, not stated) or don't know/refusal cannot be coded as a missing. The 'Sysmiss' label in the Statistics section indicates the number of non-responding records for each variable, and the 'Valid' values in the Statistics section indicate the number of responding records for each variable. The total number of records for each variable is comprised of both the sysmiss and valid values. LFS revisions: LFS estimates were previously based on the 2001 Census population estimates. These data have been adjusted to reflect 2006 Census population estimates and were revised back to 1996. The census metropolitan area (CMA) variable has been expanded from the three largest CMAs in Canada to nine. Two occupation variables based on the 2016 National Occupation Classicifcation have been reintroduced: a generic 10- category variable (NOC_10) and a detailed 40-category variable (NOC_40). A new variable on immigrant status (IMMIG) has been introduced, which distingushes between recent immigrants and established immigrants. Fourteen variables related to family and spouse/partner's labour force characteristics have been removed, as well as eight out of date variables which have been removed from the record layout.",
+                    "provenance": "This data product and metadata is sourced from CSV, DDI, and documentation files made available by <a href='https://odesi.ca/' target='_blank'>ODESI</a> and the <a href='https://www.statcan.gc.ca/eng/dli/dli' target='_blank'>Data Liberation Initative</a>.",
+                    "uri": "fc0299c3-5a5b-4935-bda8-794e717aaa4e"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T07:10:05.07Z",
+                    "cached": true,
+                    "citation": "Statistics Canada. <a href=\"https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html\" target=\"_blank\">Table  13-10-0766-01   Detailed confirmed cases of coronavirus disease (COVID-19) (Preliminary data), Public Health Agency of Canada</a>",
+                    "description": "Detailed confirmed cases of coronavirus disease in individuals as collected and published by Statistics Canada. Each reacord measures the latest hospitalization, ICU, and deceased status of individuals confirmed to have coronavirus on a specific date.",
+                    "id": "ca_statcan_cases",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:29.35Z",
+                    "name": "Statistics Canada Detailed Confirmed Cases",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations  applied to the <a href=\"https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip\">CSV download of the entire table</a>. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The source CSV file has a structure based on a SDMX cube, in which there are several columns of interest, <em>REF_DATE</em>, <em>Case Identifier number</em>, <em>Case information</em>, and <em>VALUE</em>.The <em>REF_DATE</em> and <em>Case Identifier number</em> are the same for a record, but a single record in the Statistics Canada table is spread out over 13 records in the CSV file, each with a different <em>VALUE</em> for a specific <em>Case information</em>. The source CSV file has been transformed to produce the data in this data product.</p><p>The following data curation and transformation steps have been performed on the source data.</p><ul><li>The source variables <em>REF_DATE</em>, <em>Date case was last updated - month</em>, and <em>Date case was last updated - day</em> have been combined into a single <em>date_stamp</em> ISO 8601 date variable.</li><li>The source variables <em>REF_DATE</em>, <em> Episode date - month</em>, and <em> Episode date - day</em> have been combined into a single <em>episode_start_date</em> ISO 8601 date variable.</li><li>The '..' in the source <em>previous status</em> variables are replaced with empty values.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/ca/statcan/cases\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "c1c3d310-bea2-454a-8293-64698db4a009"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T07:10:11.986Z",
+                    "cached": true,
+                    "citation": "Statistics Canada. <a href=\"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101\" target=\"_blank\">Table 13-10-0781-01 Detailed preliminary information on confirmed cases of COVID-19 (Revised), Public Health Agency of Canada</a>",
+                    "description": "Detailed preliminary information on confirmed cases of COVID-19 (Revised), Public Health Agency of Canada.",
+                    "id": "ca_statcan_cases_revised",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-22T13:38:51.908Z",
+                    "name": "Statistics Canada Detailed Confirmed Cases (Revised)",
+                    "provenance": "<i>Note:  On May 22nd, 2020, this data file of detailed confirmed cases from the Public Health Agency of Canada (PHAC) replaced data published in table 13-10-0766-01. This covers all of the detailed confirmed cases up to May 13th, but with new Statistics Canada Case identifier numbers.</i></br></br><strong>Data Curation and Transformation</strong><p>The downloaded CSV file has a structure based on a SDMX cube, in which there are several columns of interest, <em>REF_DATE</em>, <em>Case Identifier number</em>, <em>Case information</em>, and <em>VALUE</em>.The <em>REF_DATE</em> and <em>Case Identifier number</em> are the same for a record, but a single record in the Statistics Canada table is spread out over 28 records in the CSV file, each with a different <em>VALUE</em> for a specific <em>Case information</em>. This CSV file has been transformed to produce the data in this data product.</p><p>The following data curation and transformation steps have been performed on the source data.</p><ul><li>The columns have been renamed to better match our other harmonized files.</li><li>Week/Year variables like <em>Onset week</em>/<em>Onset year</em>, <em>Recovery week</em>/<em>Recovery year</em>,  and <em>Episode week</em>/<em>Episode year</em>,  have been combined into corresponding weekstamp ISO 8601 date variables. </li><li><em>Age group</em> has been recoded to better match our other age group variables</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/ca/statcan/cases_revised\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "9550beee-fb8e-4dc3-b9af-a49585716c74"
+                }
+            ],
+            "description": "COVID-19 related data products covering Canada at the national and subnational levels.",
+            "id": "ca",
+            "isPrivate": false,
+            "name": "Canada",
+            "uri": "e7033e0f-e7f8-40cb-896d-8f2491eb858c"
+        },
+        {
+            "dataProducts": [
+                {
+                    "cacheLastCleared": "2020-12-08T16:51:05.331Z",
+                    "cached": true,
+                    "citation": "Google LLC \"Google COVID-19 Community Mobility Reports\". <a href=\"https://www.google.com/covid19/mobility/\" target=\"_blank\">https://www.google.com/covid19/mobility </a> Accessed: 2020-12-06.",
+                    "description": "Full dataset covering all geography levels. The <a href='https://www.google.com/covid19/mobility/' target='_blank'>Google Community Mobility Reports</a> aim to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.",
+                    "id": "google_mobility",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-08T16:51:04.88Z",
+                    "name": "Google COVID-19 Community Mobility Reports: All",
+                    "note": "Changes for each day are compared to a baseline value for that day of the week: <ul><li>The baseline is the median value, for the corresponding day of the week, during the 5-week period Jan 3–Feb 6, 2020.</li><li>The datasets show trends over several months with the most recent data representing approximately 2-3 days ago—this is how long it takes to produce the datasets.</li></ul> More information regarding the data can be found on <a href=\"https://www.google.com/covid19/mobility/data_documentation.html?hl=en\" target=\"_blank\">Google's CSV Documentation Page</a>. ",
+                    "provenance": "",
+                    "uri": "4fc801f1-dd9a-48ee-b5c1-d85247cc54be"
+                },
+                {
+                    "cacheLastCleared": "2020-12-08T16:51:06.227Z",
+                    "cached": true,
+                    "citation": "Google LLC \"Google COVID-19 Community Mobility Reports\". <a href=\"https://www.google.com/covid19/mobility/\" target=\"_blank\">https://www.google.com/covid19/mobility </a> Accessed: 2020-12-06.",
+                    "description": "Country level dataset (lower level geographies removed). The <a href='https://www.google.com/covid19/mobility/' target='_blank'>Google Community Mobility Reports</a> aim to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.",
+                    "id": "google_mobility_country",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-08T16:51:05.779Z",
+                    "name": "Google COVID-19 Community Mobility Reports: Countries ",
+                    "note": "Changes for each day are compared to a baseline value for that day of the week: <ul><li>The baseline is the median value, for the corresponding day of the week, during the 5-week period Jan 3–Feb 6, 2020.</li><li>The datasets show trends over several months with the most recent data representing approximately 2-3 days ago—this is how long it takes to produce the datasets.</li></ul> More information regarding the data can be found on <a href=\"https://www.google.com/covid19/mobility/data_documentation.html?hl=en\" target=\"_blank\">Google's CSV Documentation Page</a>. ",
+                    "provenance": "",
+                    "uri": "4ca330dd-1240-4877-aae1-b3d139c5f1be"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T09:15:09.857Z",
+                    "cached": true,
+                    "citation": "Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. <a href=\"https://github.com/CSSEGISandData/COVID-19\" target=\"_blank\">COVID-19 Data Repository</a>",
+                    "description": "Johns Hopkins University country level COVID-19 data. Each record measures the counts of confirmed, active, recovered, and deaths for a country on a specific date.",
+                    "id": "jhu_country",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:38.975Z",
+                    "name": "Johns Hopkins University CCSE Country Reports",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and transformations applied to the data provided provided by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>For in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us/jhu-ccse\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "1f374e32-0946-4603-93f4-de3ed786caaf"
+                }
+            ],
+            "description": "COVID-19 related data products covering multiple countries.",
+            "id": "int",
+            "isPrivate": false,
+            "name": "International",
+            "uri": "eb0f382b-35ee-4f41-ad45-5eb47be3430e"
+        },
+        {
+            "dataProducts": [
+                {
+                    "cacheLastCleared": "2020-12-23T06:35:04.235Z",
+                    "cached": true,
+                    "citation": "The COVID Tracking Project. <a href=\"https://covidtracking.com/api\" target=\"_blank\">State Historical Data</a>",
+                    "description": "State level COVID-19 case information by date, collected by the COVID Tracking Project. Each record measures confirmed cases, tests performed, hospitalizations, recoveries, deaths, ventilator usage, and individuals in an ICU for a state on a specific date.",
+                    "id": "covidtracking_state",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:35.7Z",
+                    "name": "COVID Tracking Project State Data",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://covidtracking.com/api/v1/states/daily.csv\" target=\"_blank\">CSV Download</a> provided by the COVID Tracking Project. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The source variable <em>date</em> has been reformatted to match the ISO 8601 format (YYYY-MM-DD). This variable has been renamed to  <em>date_stamp</em> in this data product.</li><li>The source file has two variables, <em>hospitalized</em> and <em>hospitalizedCumulative</em>, which duplicate each other for every state. We have dropped the <em>hospitalizedCumulative</em> variable in this data product. The source <em>hospitalized</em> variable has been renamed to <em>cnt_hospitalized</em> in this data product.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us/covidtracking/state\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "7c375d22-5b78-4cd2-a0b7-9b0865062604"
+                },
+                {
+                    "cacheLastCleared": "2020-12-08T16:51:08.187Z",
+                    "cached": true,
+                    "citation": "Google LLC \"Google COVID-19 Community Mobility Reports\". <a href=\"https://www.google.com/covid19/mobility/\" target=\"_blank\">https://www.google.com/covid19/mobility </a> Accessed: 2020-12-06.",
+                    "description": "U.S. States level dataset (other geographies removed). The <a href='https://www.google.com/covid19/mobility/' target='_blank'>Google Community Mobility Reports</a> aim to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.",
+                    "id": "google_mobility_us",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-08T16:51:07.684Z",
+                    "name": "Google COVID-19 Community Mobility Reports: United States ",
+                    "note": "Changes for each day are compared to a baseline value for that day of the week: <ul><li>The baseline is the median value, for the corresponding day of the week, during the 5-week period Jan 3–Feb 6, 2020.</li><li>The datasets show trends over several months with the most recent data representing approximately 2-3 days ago—this is how long it takes to produce the datasets.</li></ul> More information regarding the data can be found on <a href=\"https://www.google.com/covid19/mobility/data_documentation.html?hl=en\" target=\"_blank\">Google's CSV Documentation Page</a>. ",
+                    "provenance": "",
+                    "uri": "b18f9b29-05b6-443c-aada-13f4fad907da"
+                },
+                {
+                    "cacheLastCleared": "2020-12-08T16:39:20.259Z",
+                    "cached": true,
+                    "citation": "Google LLC \"Google COVID-19 Community Mobility Reports\". <a href=\"https://www.google.com/covid19/mobility/\" target=\"_blank\">https://www.google.com/covid19/mobility </a> Accessed: 2020-12-06.",
+                    "description": "U.S. Counties level dataset (other geographies removed), which uses FIPS codes for geospatial entities. The <a href='https://www.google.com/covid19/mobility/' target='_blank'>Google Community Mobility Reports</a> aim to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.",
+                    "id": "google_mobility_us_county",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-08T16:39:14.645Z",
+                    "name": "Google COVID-19 Community Mobility Reports: United States Counties ",
+                    "note": "Changes for each day are compared to a baseline value for that day of the week: <ul><li>The baseline is the median value, for the corresponding day of the week, during the 5-week period Jan 3–Feb 6, 2020.</li><li>The datasets show trends over several months with the most recent data representing approximately 2-3 days ago—this is how long it takes to produce the datasets.</li></ul> More information regarding the data can be found on <a href=\"https://www.google.com/covid19/mobility/data_documentation.html?hl=en\" target=\"_blank\">Google's CSV Documentation Page</a>. ",
+                    "provenance": "",
+                    "uri": "b7d587d1-b69d-4875-b90f-e1e15cebbd50"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T09:15:25.511Z",
+                    "cached": true,
+                    "citation": "Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. <a href=\"https://github.com/CSSEGISandData/COVID-19\" target=\"_blank\">COVID-19 Data Repository</a>",
+                    "description": "Johns Hopkins University U.S. county level COVID-19 data. Each record measures the counts of confirmed, recovered, and deaths for a U.S. county on a specific date.",
+                    "id": "jhu_county",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:42.134Z",
+                    "name": "Johns Hopkins University CCSE U.S. County Reports",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and transformations applied to the data provided provided by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>Some admin2 FIPS codes only have 4 digits (missing their leading 0). These were patched.</li><li>800nn codes: entries are found with an admin2 FIPS code 800+State FIPS code and a lable of \"Out of XX\" where XX is the state 2-letter code (e.g. Out of CO). These are aggregated into a \"Other\" category.</li><li>900nn codes: entries are found with an admin2 code 900+State FIPS code and coundty name \"Unassigned\". These are aggregated into a \"Other\" category.</li><li>Missing code: A few entries have no admin2 FIPS codes to capture count their regional or specific entities (e.g. West Utah, TriHealth, etc.). These are aggregated into a \"Other\" category.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us/jhu-ccse\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "5a17b99f-ec80-4008-9859-e6b2cbff47f0"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T09:15:15.603Z",
+                    "cached": true,
+                    "citation": "Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. <a href=\"https://github.com/CSSEGISandData/COVID-19\" target=\"_blank\">COVID-19 Data Repository</a>",
+                    "description": "Johns Hopkins University U.S. state level COVID-19 data. Each record measures the counts of confirmed, recovered, and deaths for a U.S. state on a specific date.",
+                    "id": "jhu_state",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:44.994Z",
+                    "name": "Johns Hopkins University CCSE U.S. State Reports",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "This data product is created through cleaning and transformations applied to the data provided provided by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. This data is pulled daily.<strong>Data Curation and Transformation</strong><p>For in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us/jhu-ccse\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "a60421c1-137a-4007-8e68-04aca6f513d8"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T01:05:22.482Z",
+                    "cached": true,
+                    "citation": "Small Business Administration. <a href=\"https://home.treasury.gov/policy-issues/cares-act/assistance-for-small-businesses/sba-paycheck-protection-program-loan-level-data\" target=\"_blank\">SBA Paycheck Protection Program Loan Level Data</a>",
+                    "description": "Paycheck Protection Program Loan data for the entire United States. This data product contains information about all active loans in the program: businesses that received loans, business owner demographics, the amount or range of loan received, and the number of jobs retained per loan measured by state, county, and congressional district.",
+                    "id": "ppp_loan",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-23T21:39:41.796Z",
+                    "name": "SBA Paycheck Protection Program Loan Level Data",
+                    "note": "<strong>Loan Amounts</strong> <p>The latest data release from December 2020 includes exact loan amount and business identity for all recipients. This was not the case in earlier releases in which above $150k loans held business name, address, and an amount range, while the below $150k loans held exact amounts but no name or address. This deprecates the need for our computed loan minimum, average, and maximum fields, which now all contain the same loan amount.</p><strong>U.S. Counties</strong><p>This data product has added the <strong>inferred primary</strong> U.S. County Code to each record based on the zip codes in the original data file. These may be inaccurate for recipients in ZIP codes spanning multiple counties.</p> <strong>NAICS</strong> <p>The codes used to identify a business industry are expected to be based on the 2017 version of the <a href='https://www.census.gov/eos/www/naics/index.html' target='_blank'>North American Industry Classification System (NAICS)</a>. Be aware that unfortunately many entries seem to be using codes from previous versions, going all the way back to 1997 edition, in which case we are not able to provide an accurate value label. We are investigating options to correct for this.</p><strong>PPP Is A Delegated Loan Making Process</strong><p>PPP loans are not made by SBA. PPP loans are made by lending institutions and then guaranteed by SBA. Accordingly, borrowers apply to lenders and self-certify that they are eligible for PPP loans. The self-certification includes a good faith certification that the borrower has economic need requiring the loan and a certification that the borrower has applied the affiliation rules and is a small business, among other certifications The lender then reviews the borrower’s application, and if all the paperwork is in order, approves the loan and submits it to SBA.</p><strong>PPP Loan Data Is Not Indicative of Loan Forgiveness or Program Compliance</strong><p>A small business or non-profit organization that is listed in the publicly released data has been approved for a PPP loan by a delegated lender. However, the lender’s approval does not reflect a determination by SBA that the borrower is eligible for a PPP loan or entitled to loan forgiveness. All PPP loans are subject to SBA review and all loans over $2 million will automatically be reviewed. The fact that a borrower is listed in the data as having a PPP loan does not mean that SBA has determined that the borrower complied with program rules or is eligible to receive a PPP loan and loan forgiveness. Further, a small business’s receipt of a PPP loan should not be interpreted as an endorsement of the small business’ business activity or business model.</p><strong>Canceled Loans Do Not Appear In The PPP Loan Data</strong><p>The public PPP data includes only active loans. Loans that were canceled for any reason are not included in the public data release.</p><strong>PPP Loan Demographic Data Is Voluntarily Submitted</strong><p>PPP loan data reflects the information borrowers provided to their lenders in applying for PPP loans. SBA can make no representations about the accuracy or completeness of any information that borrowers provided to their lenders. Not all borrowers provided all information. For example, approximately 75% of all PPP loans did not include any demographic information because that information was not provided by the borrowers. SBA is working to collect more demographic information from borrowers to better understand which small businesses are benefiting from PPP loans. The loan forgiveness application expressly requests demographic information for borrowers.</p>",
+                    "provenance": "<p>This data product was created by combining, curating, and enhancing the above and below $150k loan data files published by the U.S. Small Business Administration.",
+                    "uri": "4d3471ac-759a-4ec2-975d-ac7253309050"
+                }
+            ],
+            "description": "This catalog contains COVID-19 data products around the United States of America at the country, state, and county levels.",
+            "id": "us",
+            "isPrivate": false,
+            "name": "United States",
+            "uri": "22afa94b-08ff-4e8e-a516-23e625775db5"
+        },
+        {
+            "dataProducts": [
+                {
+                    "cacheLastCleared": "2020-12-23T06:35:05.341Z",
+                    "cached": true,
+                    "citation": "New York State Department of Health. <a href=\"https://health.data.ny.gov/Health/New-York-State-Statewide-COVID-19-Testing/xdss-u53e/data\" target=\"_blank\">New York State Statewide COVID-19 Testing</a>",
+                    "description": "Information on the number of tests of individuals for COVID-19 infection performed in New York State.  Each record measures newly confirmed cases, total confirmed cases, new tests performed, and total tests performed for a country in the state of New York on a specific date.",
+                    "id": "ny_doh_tests",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:48.234Z",
+                    "name": "New York Department of Health Statewide COVID-19 Testing",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning the <a href=\"https://health.data.ny.gov/api/views/xdss-u53e/rows.csv?accessType=DOWNLOAD\" target=\"_blank\">CSV Download</a> provided by the State of New York Department of Health. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The data uses county names rather than codes, these have been converted to the 5 digit FIPS codes.</li></ul><p>For in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-ny/ny-doh\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "ad86db6b-78f7-44bb-a035-1710f59f48ef"
+                }
+            ],
+            "description": "This catalog contains COVID-19 data products specifically about the state of New York.",
+            "id": "us_ny",
+            "isPrivate": false,
+            "name": "United States: New York",
+            "uri": "f62d7596-385e-46a9-a2d2-d01ace1c7bd6"
+        },
+        {
+            "dataProducts": [
+                {
+                    "cacheLastCleared": "2020-12-23T06:35:06.431Z",
+                    "cached": true,
+                    "citation": "Ohio Department of Health (ODH). <a href=\"https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards\" target=\"_blank\">Ohio Department of Health COVID-19 Dashboard </a>",
+                    "description": "The most recent preliminary data reported to the Ohio Department of Health (ODH) county aggregate counts. Each record measures the count of confirmed cases, hospitalizations, and deaths for a county on a specific date.",
+                    "id": "oh_doh_cases_aggregate",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:54.402Z",
+                    "name": "Ohio Department of Health Aggregate COVID Data",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created by computing aggregate counts by date and county based off of the <a href=\"https://coronavirus.ohio.gov/static/COVIDSummaryData.csv\" target=\"_blank\">CSV Download</a> provided by the Ohio Department of Health. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The county names are dropped and recoded as their 5 digit FIPS code and their code labels will be a part of the metadata.</li><li>The aggregate counts were first computed on each date and county, this provided us with the daily count of confirmed cases, hospitalizations, and deaths regardless of the sex or age group of the individuals. Then a cumulative sum was produced over the county field to get the final cumulative values.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-oh/oh-doh\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "cd660923-c1f7-4320-9c79-11646a6dc757"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:35:08.746Z",
+                    "cached": true,
+                    "citation": "Ohio Department of Health (ODH). <a href=\"https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards\" target=\"_blank\">Ohio Department of Health COVID-19 Dashboard </a>",
+                    "description": "The most recent preliminary data reported to the Ohio Department of Health (ODH). Each record measures the count of confirmed cases, hosptializations, and deaths for an age group, sex, and county on a specific date.",
+                    "id": "oh_doh_cases",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-06T11:26:51.318Z",
+                    "name": "Ohio Department of Health COVID Data",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://coronavirus.ohio.gov/static/COVIDSummaryData.csv\" target=\"_blank\">CSV Download</a> provided by the Ohio Department of Health. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The county names are dropped and recoded as their 5 digit FIPS code and their code labels will be a part of the metadata.</li><li>The <em>sex</em> column has been coded.</li><li>The <em>age_group</em> in has been coded with 'Unknown' being coded as 99.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-oh/oh-doh\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "d585c6f8-a484-4dd0-abd4-122339953cc5"
+                }
+            ],
+            "description": "This catalog contains COVID-19 data products specifically about the state of Ohio.",
+            "id": "us_oh",
+            "isPrivate": false,
+            "name": "United States: Ohio",
+            "uri": "2a148f1e-a21d-42b9-892a-2849a243597a"
+        },
+        {
+            "dataProducts": [
+                {
+                    "cacheLastCleared": "2020-12-23T16:15:07.078Z",
+                    "cached": true,
+                    "citation": "Knox County Department of Health. <a href=\"https://covid.knoxcountytn.gov/case-count.html\" target=\"_blank\">Knox County COVID-19 Data</a>",
+                    "description": "Knox county COVID-19 case information. Each record measures the count of confirmed cases, recovered cases, active cases, probable cases, hospitalizations and deaths on a specific date.",
+                    "id": "us_tn_kchd_cases",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-07-13T13:17:44.513Z",
+                    "name": "Knox County Department of Health - Case Information",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://covid.knoxcountytn.gov/includes/covid_cases.csv\" target=\"_blank\">CSV Download</a> provided by the Knox County Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>For information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/co-knox/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "59fd8286-a231-4cf5-87f5-27794bedc801"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T16:15:04.12Z",
+                    "cached": true,
+                    "citation": "Knox County Department of Health. <a href=\"https://covid.knoxcountytn.gov/case-count.html\" target=\"_blank\">Knox County COVID-19 Data</a>",
+                    "description": "Knox county COVID-19 cases by age group. Each record measures the count and percentage of confirmed cases, by age group on a specific date.",
+                    "id": "us_tn_kchd_age",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-07-13T13:17:55.846Z",
+                    "name": "Knox County Department of Health - Cases by Age",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://covid.knoxcountytn.gov/includes/covid_age.csv\" target=\"_blank\">CSV Download</a> provided by the Knox County Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>For information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/co-knox\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "abb728e8-1c0d-4f1e-a555-fc82a2c81766"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T16:15:11.989Z",
+                    "cached": true,
+                    "citation": "Knox County Department of Health. <a href=\"https://covid.knoxcountytn.gov/case-count.html\" target=\"_blank\">Knox County COVID-19 Data</a>",
+                    "description": "Knox county COVID-19 cases by sex. Each record measures the count and percentage of confirmed cases by sex on a specific date.",
+                    "id": "us_tn_kchd_sex",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-07-13T13:18:05.623Z",
+                    "name": "Knox County Department of Health - Cases by Sex",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://covid.knoxcountytn.gov/includes/covid_gender.csv\" target=\"_blank\">CSV Download</a> provided by the Knox County Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>For information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/co-knox\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "01b257a9-c415-4bc9-96e4-c4a567fb1e9b"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T16:15:09.363Z",
+                    "cached": true,
+                    "citation": "Knox County Department of Health. <a href=\"https://covid.knoxcountytn.gov/case-count.html\" target=\"_blank\">Knox County COVID-19 Data</a>",
+                    "description": "Knox county COVID-19 related resource capacity. Each record measures the total capacity, along with the counts and percentages of resources in use and resources available by resource type on a specific date.",
+                    "id": "us_tn_kchd_capacity",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-12-08T14:56:51.557Z",
+                    "name": "Knox County Department of Health - Resource Capacity",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://covid.knoxcountytn.gov/includes/covid_bed_capacity.csv\" target=\"_blank\">CSV Download</a> provided by the Knox County Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>For information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/co-knox\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "d8f7959f-4590-431d-bb30-e2852550ff9a"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:10:03.55Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Health. <a href=\"https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\" target=\"_blank\">Tenessee Department of Health: Epidemiology and Surveillance Data</a>",
+                    "description": "Tennesse state COVID-19 case information by age group. Each record measures the count of confirmed cases, percentage of confirmed cases, and count of deaths by age group on a specific date.",
+                    "id": "us_tn_doh_age",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-17T12:04:54.912Z",
+                    "name": "Tennesse Department of Health Age Demographics",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Age.xlsx\" target=\"_blank\">Excel Download</a> provided by the Tennessee Department of Health. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The age goup has been coded.</li><li>The percentage of cases and percentage of new cases were multiplied by 100 in order that the values add up to 100 rather than decimals that add up to 1.0.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/tn-doh/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "c7928e6a-0e82-4016-aa0b-78567e95a4b6"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:10:05.667Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Health. <a href=\"https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\" target=\"_blank\">Tenessee Department of Health: Epidemiology and Surveillance Data</a>",
+                    "description": "Tennessee county level COVID-19 case information. Each record measures the count of confirmed cases, active cases, hospitalizations, recoveries, deaths, and tests by county on a specific date.",
+                    "id": "us_tn_doh_county",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-23T14:10:47.557Z",
+                    "name": "Tennesse Department of Health County Case Information",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-County-New.XLSX\" target=\"_blank\">Excel Download</a> provided by the Tennessee Department of Health. This data is pulled daily.</p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The county name has been replaced with the 5 digit FIPS county code. The 'Pending' and 'Out of State' values have been removed from this variable. </li><li>A new variable <em>tn_covid_geo</em> has been added. This will be the 5 digit county FIPS code and will include codes for 'Pending' and 'Out of State'.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/tn-doh/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "df6b5717-d70e-4d6a-9be9-c4e018586ff2"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:10:06.397Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Health. <a href=\"https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\" target=\"_blank\">Tenessee Department of Health: Epidemiology and Surveillance Data</a>",
+                    "description": "Tennessee state COVID-19 case information by ethnicity. Each record measures the count of confirmed cases, percentage of confirmed cases, count of deaths, and percentage of deaths by ethnicity on a specific date.",
+                    "id": "us_tn_doh_ethnicity",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-17T12:11:12.061Z",
+                    "name": "Tennesse Department of Health Ethnic Demographics",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-RaceEthSex.XLSX\" target=\"_blank\">Excel Download</a> provided by the Tennessee Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The file is a subset of the source data which combines ethnicity, race, and sex. This data product contains only the records that apply to ethnicity.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/tn-doh/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "b0793669-aa25-44f0-b19a-26a3ef48d2b3"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:10:07.31Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Health. <a href=\"https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\" target=\"_blank\">Tenessee Department of Health: Epidemiology and Surveillance Data</a>",
+                    "description": "Tennessee state COVID-19 case information by race. Each record measures the count of confirmed cases, percentage of confirmed cases, count of deaths, and percentage of deaths by race on a specific date.",
+                    "id": "us_tn_doh_race",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-26T12:39:35.811Z",
+                    "name": "Tennesse Department of Health Race Demographics",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-RaceEthSex.XLSX\" target=\"_blank\">Excel Download</a> provided by the Tennessee Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The file is a subset of the source data which combines ethnicity, race, and sex. This data product contains only the records that apply to race.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/tn-doh/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "a82abf40-c667-4a42-81e8-110049ebadd6"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:10:07.966Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Health. <a href=\"https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\" target=\"_blank\">Tenessee Department of Health Epidemiology and Surveillance Data</a>",
+                    "description": "Tennessee state COVID-19 case information by sex. Each record measures the count of confirmed cases, percentage of confirmed cases, count of deaths, and percentage of deaths by sex on a specific date.",
+                    "id": "us_tn_doh_sex",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-17T11:51:25.706Z",
+                    "name": "Tennesse Department of Health Sex Demographics",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-RaceEthSex.XLSX\" target=\"_blank\">Excel Download</a> provided by the Tennessee Department of Health. This data is pulled daily.</p></p><strong>Data Curation and Transformation</strong><p>The following data curation and transformation steps have been performed on the source data file.</p><ul><li>The file is a subset of the source data which combines ethnicity, race, and sex. This data product contains only the records that apply to sex.</li></ul><p>For more in depth information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/tn-doh/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "c0f79590-616f-4a60-a5a9-9533c2657494"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T06:10:08.739Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Health. <a href=\"https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\" target=\"_blank\">Tenessee Department of Health: Epidemiology and Surveillance Data</a>",
+                    "description": "Tennessee state level COVID-19 case information. Each record measures the count of confirmed cases, active cases, hospitalizations, recoveries, deaths, and tests for the entire state of Tennessee on a specific date.",
+                    "id": "us_tn_doh_state",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-06-23T14:11:01.508Z",
+                    "name": "Tennesse Department of Health State Case Information",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the <a href=\"https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Daily-Case-Info.XLSX\" target=\"_blank\">Excel Download</a> provided by the Tennessee Department of Health. This data is pulled daily.</p><p>For information about the data curation process or how this data product's variables were mapped from the source file, please visit this data product's <a href=\"https://github.com/mtna/covid-19/tree/master/data/us-tn/tn-doh/\" target=\"_blank\">GitHub repository</a>.</p>",
+                    "uri": "e63f71a7-e423-43f0-805a-98ea28f1ed0d"
+                },
+                {
+                    "cacheLastCleared": "2020-12-23T05:00:03.663Z",
+                    "cached": true,
+                    "citation": "Tennessee Department of Education. <a href=\"https://districtinformation.tnedu.gov/covid-information/search/-1\" target=\"_blank\">TDOE COVID-19 District Information</a>.",
+                    "description": "Tennessee Department of Education COVID-19 case information. Each record measures the count of confirmed cases in students and teachers for a specific school and also describes the operating model of the school and information about the type of operating model it is using and any restrictions that are currently in place. This information is updated on a weekly basis.",
+                    "id": "us_tn_edu_cases",
+                    "isPrivate": false,
+                    "lastUpdate": "2020-10-05T16:14:24.041Z",
+                    "name": "Tennessee Department of Education Case Information",
+                    "note": "<strong>Time Series</strong><p>This data product is a time series, as such, the <em>date_stamp</em> should be included in any tabulations performed on it. In addition, tabulations should be created using the sum of a measure rather than the count or percentage of records.</p><strong>Notice</strong><p>The data provided by the Tennessee Department of Education (TDOE) reflects new positive COVID-19 cases for students and employees at public elementary and secondary schools, including public charter schools, in Tennessee. This data is self-reported by school districts and public charter schools to the TDOE on a weekly basis. TDOE cannot verify and makes no representations regarding the accuracy of the data presented. This data is provisional and subject to change. This data may be different than information reported by a school, district, or other entity due to timing of reporting or other factors. In addition, this data may be different than county-level information reported by the Tennessee Department of Health due to timing of reporting, the fact that positive cases are reported by TDH only after laboratory confirmation, or other factors. School districts and public charter schools are requested to report positive COVID-19 cases to TDOE but are not mandated to do so by law or regulation. COVID-19 case investigations are conducted by local health departments.</p><p>To protect individual privacy, schools with fewer than 50 students are not reported in this data. Further, for schools reporting a number that is fewer than five positive student or employee COVID-19 cases, the school will be listed without a specific number of cases for the category. Decisions regarding reporting this data balance transparency, public health and individual privacy and may change as circumstances change.</p><p>New cases represent the number of newly reported positive cases on the most recent reporting date. Inactive cases are not reported. Data reported herein does not indicate or imply that a positive COVID-19 case was contracted at the school facility.</p>",
+                    "provenance": "<p>This data product is created through cleaning and simple transformations applied to the school and district data that is provided through the API endpoints that are used in the Tennessee Department of Education <a href=\"https://districtinformation.tnedu.gov/covid-information/search/-1\" target=\"_blank\">COVID-19 District Information dasboard</a>. This data is processed on a weekly basis.</p>",
+                    "uri": "c2e0f674-8294-4429-9eff-8e93c7a50e87"
+                }
+            ],
+            "description": "This catalog contains COVID-19 data products specifically about the state of Tennesee.",
+            "id": "us_tn",
+            "isPrivate": false,
+            "name": "United States: Tennesee",
+            "uri": "5ae1789b-5810-44b8-8523-d0f6c0a56359"
+        }
+    ],
+    "isPrivate": false,
+    "lastUpdate": "2020-09-02T04:34:36.8Z",
+    "uri": "RDS"
+}

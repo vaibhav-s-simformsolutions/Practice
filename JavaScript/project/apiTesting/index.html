@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <!-- <img src = "" id = "focus" /> -->
+    <div>
+        <form style="text-align: center;">
+            <!-- <p>Methods : </p> -->
+            <!-- Method :  -->
+            <label for="method">Method : </label>
+            <input type="radio" id="get" name="method" value="get" checked onclick="onparam()">
+            <label for="get">GET</label>
+            <input type="radio" id="post" name="method" value="post" onclick="offparam()">
+            <label for="post">POST</label><br>
+
+            <label for="url" >URL :</label>
+            <input type="url" id = "url" name = "url" style="margin : 10px;"><br>
+
+
+            <label for="params" id = "params" style="display: none;">Params : 
+            <textarea placeholder = "Enter key value pair like this..
+{
+    'name':'vaibhav'
+}"id = "params" name = "params" style="height: 100px;" style="display: none;"></textarea></label><br>
+            
+            <button type = "button" name = "Fetch" value="fetch" id = "fetch" onclick="fetchdata()">Fetch</button>
+            <!-- style="display: none;" -->
+            <p>Time : <span id = "time">0</span> ms</p>
+            <p id = "colorchangebyerror">Status : <span id = "status">Pending...</p>
+        </form>
+    </div>
+   <hr>
+
+       
+    <pre><code id = "fdata"></code></pre>
+
+
+
+    <script src="index.js"></script>
+    </body>
+</html>

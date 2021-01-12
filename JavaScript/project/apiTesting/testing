@@ -1,0 +1,17 @@
+GET :
+    https://swapi.dev/api/people/1/ 
+    https://reqres.in/api/users/2
+    localhost : http://127.0.0.1:5500/practice/temp.json
+POST :
+------------------------------------
+https://reqres.in/api/user
+-{
+    "name": "morpheus",
+    "job": "leader"
+}
+-------------------------------------
+-https://reqres.in/api/login
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
