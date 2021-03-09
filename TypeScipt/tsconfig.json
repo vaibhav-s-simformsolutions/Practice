@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        // "noImplicitAny": true,   //it's doesn't allow any in TypeScript
+        //strict-------
+        // "strict": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        //------------
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "lib"
+    },
+    "include": ["src"],
+}
