@@ -8,6 +8,7 @@ import {
 
 const router = Router();
 
+//array storage
 router.post("/", createtodos);
 router.get("/", gettodoes);
 router.patch("/:id", updatetodos);

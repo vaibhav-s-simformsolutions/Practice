@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd ./config/dev.env nodemon dist/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.11",
-    "express": "^4.17.1"
+    "@types/sequelize": "^4.28.9",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
   }
 }
