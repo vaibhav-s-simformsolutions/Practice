@@ -1,0 +1,105 @@
+subtract
+add
+dec
+multiply
+flip ,(__) --> order the parameter (prefer : __)
+adjust --> change with index
+equals --> define some const
+lte --> less than or equal to
+all --> &&
+allPass --> for whole array &&
+any --> ||
+anyPass --> for all ||
+ap --> generate combination
+repeat --> intialization
+aperture --> window sliding
+append
+prepend
+apply --> Extract one property via function
+applySpec --> (*** Most ***) you can make object with function and use all property at a time
+applyTo
+comparator --> for bool comaparation
+sort --> sort with function
+ascend --> asc order by some property
+descend --> desc order by some property
+nAry
+binary
+unary
+pipe -->(*** Most ***) running in sequence order (left -> right)
+pipeP -->(*** Most ***) running in sequence order (for promises) (left -> right)
+compose -->(*** Most ***) running in sequence order (right -> left)
+composeP -->(*** Most ***) running in sequence order (for promises)(right -> left)
+call --> (fn,...args) ==> bind function with args(according to args)
+flatten --> flat the array (nd -> 1d)
+clone --> clone the object (deep copy)
+clamp --> cheack it's in range or not if not than return min distance val
+complement --> !
+concat --> caoncat two ele which datatype must be same
+cond --> switch...case [[cond,func],[cond,func],...,[T,default]]
+contains --> find in array or object (ele,arr/object)
+
+**************
+converge --> when you have more than two function with same parameter and after you parform operation on that that time you can go for 'converge'
+(c,[f1,f2,...])
+example : 
+R.converge(
+  R.concat,
+  [
+    R.toLower,
+    R.toUpper,
+  ]
+)('Simform')
+Output : 
+simformSIMFORM
+
+---> one bug in below function solve it...
+p = R.converge(
+  R.call, 
+  [
+    R.add,
+    R.add(2)
+])(100);
+**************
+
+countBy -->count (freqency vice) and make a object (key - valur pair)
+
+//set operation
+difference --> difference between two set
+intersection --> intersectioln between two set
+union --> union between two sets
+symmetricDifference --> symmetricDifference between two sets
+
+drop --> (n,arr) drop first n ele
+dropLast -->  drop last n ele
+dropWhile --> (fn,arr) ==>drop all ele which  satifty condition
+dropLastWhile --> (fn,arr) ==> drop all ele which doesn't satifty condition
+dropRepeats --> drop consecutively repeating elements
+
+take -->(n,arr) take first n ele
+takeLast --> take last n ele
+takeWhile --> (fn,arr) ==>drop all ele which  satifty condition
+takeLastWhile --> take all ele which doesn't satifty condition
+
+either --> anything is true --> true
+both --> everything is true --> true
+
+eqProps --> (property,object1,object2) --> check if property available in both objec
+
+**************
+evolve(fn,obj) ==> object with modification function & object
+Example :
+const obj = {
+  name : 'abc     ',
+  age : 10
+}
+const trasformation  = { 
+  name : R.trim,
+  age : R.add(1)
+}
+R.evolve(trasformation,obj)
+
+Output : 
+{ name: 'abc', age: 11 }
+**************
+
+filter --> (fn,arr) ==> function return boolean (filter accordingly condition)
