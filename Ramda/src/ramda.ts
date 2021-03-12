@@ -1,7 +1,7 @@
-import R, { eqBy, eqProps, toUpper, transduce } from "ramda";
+import R, { eqBy, eqProps, groupBy, toUpper, transduce } from "ramda";
 
 let p; //print + debug
-//Note : Whatever you wanna print just put 'p =' before iteration 
+//Note : Whatever you wanna print just put 'p =' before iteration
 
 //1 . __ 2.substract 3.add
 const dec = R.subtract(R.__, 1); //waiting for fun args (curry func)
@@ -188,36 +188,84 @@ R.union([1, 2, 3, 4, 5], [1, 2, 3, 9, 10]);
 R.symmetricDifference([1, 2, 3, 4], [1, 2, 4, 3, 5]);
 
 //drop
-R.drop(1,[1,2,3,4])
-R.dropLast(1,[1,2,3,4])
-R.dropWhile(x => x < 3 ,[1,2,3,4,5,6,7,8])
-R.dropLastWhile(R.lte(5),[1,2,3,4,5,6,7,8])
-R.dropRepeats([1,2,3,3,3,4,3])
+R.drop(1, [1, 2, 3, 4]);
+R.dropLast(1, [1, 2, 3, 4]);
+R.dropWhile((x) => x < 3, [1, 2, 3, 4, 5, 6, 7, 8]);
+R.dropLastWhile(R.lte(5), [1, 2, 3, 4, 5, 6, 7, 8]);
+R.dropRepeats([1, 2, 3, 3, 3, 4, 3]);
 
 //take
-R.take(2,[1,2,3,4])
-R.takeLast(2,[1,2,3,4])
-R.takeWhile(x => x < 3 ,[1,2,3,4,5,6,7,8])
-R.takeLastWhile(R.lte(5),[1,2,3,4,5,6,7,8])
+R.take(2, [1, 2, 3, 4]);
+R.takeLast(2, [1, 2, 3, 4]);
+R.takeWhile((x) => x < 3, [1, 2, 3, 4, 5, 6, 7, 8]);
+R.takeLastWhile(R.lte(5), [1, 2, 3, 4, 5, 6, 7, 8]);
 
-R.either(R.gte(R.__,5),R.lte(R.__,10))(4)
-R.both(R.gte(R.__,5),R.lte(R.__,10))(4)
+R.either(R.gte(R.__, 5), R.lte(R.__, 10))(4);
+R.both(R.gte(R.__, 5), R.lte(R.__, 10))(4);
 
-R.endsWith('c','abc')
-R.eqProps('a',{a:10,b:203},{a:2})
+R.endsWith("c", "abc");
+R.eqProps("a", { a: 10, b: 203 }, { a: 2 });
 
 const obj = {
-  name : 'abc     ',
-  age : 10
-}
-const trasformation  = { 
-  name : R.trim,
-  age : R.add(1)
-}
-R.evolve(trasformation,obj)
+  name: "abc     ",
+  age: 10,
+};
+const trasformation = {
+  name: R.trim,
+  age: R.add(1),
+};
+R.evolve(trasformation, obj);
 
-const evenfunction = x => x%2==0
+const evenfunction = (x) => x % 2 == 0;
 
-R.filter(evenfunction,[1,2,3,4,5,6,7,8])
+R.filter(evenfunction, [1, 2, 3, 4, 5, 6, 7, 8]);
+
+//replace
+R.replace("foo", "bar", "afoo foo foo"); //=> 'bar foo foo'
+R.replace(/foo/, "bar", "afooa foo foo"); //=> 'abara foo foo'
+R.replace(/foo/g, "bar", "fooa foo foo"); //=> 'bara bar bar'
+
+//find
+const findpractice = [
+  { a: 1, b: 0 },
+  { a: 1, b: 1 },
+];
+R.find(R.propEq("a", 1))(findpractice);
+R.findLast(R.propEq("a", 1))(findpractice);
+// const func = (x) => x==2;
+R.find((x) => x == 2)([1, 2, 3, 4, 5]);
+R.findIndex((x) => x == 2, [-1, -2, 2, 3, 4, 5, 2]);
+R.findLastIndex((x) => x == 2, [-1, -2, 2, 3, 4, 5, 2]);
+
+
+//group
+const students = [
+  { name: "Abby", score: 84 },
+  { name: "Eddy", score: 58 },
+  { name: "Jack", score: 69 },
+];
+
+const byGrade = R.groupBy(function (student : { name: string, score : number}) {
+  const score = student.score;
+  return score < 65
+    ? "F"
+    : score < 70
+    ? "D"
+    : score < 80
+    ? "C"
+    : score < 90
+    ? "B"
+    : "A";
+});
+// console.log(byGrade(students));
+const similarity = [0,1,3,4,2,5]
+R.groupWith((a, b) => a + 1 === b,similarity)
+
+R.includes(5,[1,2,3])
+R.includes({ name: "Abby", score: 84 },students)
+
+R.ifElse((a) => a < 10,R.inc,R.dec)(8)
+
+p = R.uniqWith(R.eqBy(String))([1,1,1,1,2,3,1,1,1,1,4])
 
 console.log(p);

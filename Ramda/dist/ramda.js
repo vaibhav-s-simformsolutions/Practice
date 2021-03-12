@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const ramda_1 = __importDefault(require("ramda"));
 let p; //print + debug
-//Note : Whatever you wanna print just put 'p =' before iteration 
+//Note : Whatever you wanna print just put 'p =' before iteration
 //1 . __ 2.substract 3.add
 const dec = ramda_1.default.subtract(ramda_1.default.__, 1); //waiting for fun args (curry func)
 ///if you don't put this R.__ than explicitly it takes (1,R.__)
@@ -153,27 +153,67 @@ ramda_1.default.symmetricDifference([1, 2, 3, 4], [1, 2, 4, 3, 5]);
 //drop
 ramda_1.default.drop(1, [1, 2, 3, 4]);
 ramda_1.default.dropLast(1, [1, 2, 3, 4]);
-ramda_1.default.dropWhile(x => x < 3, [1, 2, 3, 4, 5, 6, 7, 8]);
+ramda_1.default.dropWhile((x) => x < 3, [1, 2, 3, 4, 5, 6, 7, 8]);
 ramda_1.default.dropLastWhile(ramda_1.default.lte(5), [1, 2, 3, 4, 5, 6, 7, 8]);
 ramda_1.default.dropRepeats([1, 2, 3, 3, 3, 4, 3]);
 //take
 ramda_1.default.take(2, [1, 2, 3, 4]);
 ramda_1.default.takeLast(2, [1, 2, 3, 4]);
-ramda_1.default.takeWhile(x => x < 3, [1, 2, 3, 4, 5, 6, 7, 8]);
+ramda_1.default.takeWhile((x) => x < 3, [1, 2, 3, 4, 5, 6, 7, 8]);
 ramda_1.default.takeLastWhile(ramda_1.default.lte(5), [1, 2, 3, 4, 5, 6, 7, 8]);
 ramda_1.default.either(ramda_1.default.gte(ramda_1.default.__, 5), ramda_1.default.lte(ramda_1.default.__, 10))(4);
 ramda_1.default.both(ramda_1.default.gte(ramda_1.default.__, 5), ramda_1.default.lte(ramda_1.default.__, 10))(4);
-ramda_1.default.endsWith('c', 'abc');
-ramda_1.default.eqProps('a', { a: 10, b: 203 }, { a: 2 });
+ramda_1.default.endsWith("c", "abc");
+ramda_1.default.eqProps("a", { a: 10, b: 203 }, { a: 2 });
 const obj = {
-    name: 'abc     ',
-    age: 10
+    name: "abc     ",
+    age: 10,
 };
 const trasformation = {
     name: ramda_1.default.trim,
-    age: ramda_1.default.add(1)
+    age: ramda_1.default.add(1),
 };
 ramda_1.default.evolve(trasformation, obj);
-const evenfunction = x => x % 2 == 0;
+const evenfunction = (x) => x % 2 == 0;
 ramda_1.default.filter(evenfunction, [1, 2, 3, 4, 5, 6, 7, 8]);
+//replace
+ramda_1.default.replace("foo", "bar", "afoo foo foo"); //=> 'bar foo foo'
+ramda_1.default.replace(/foo/, "bar", "afooa foo foo"); //=> 'abara foo foo'
+ramda_1.default.replace(/foo/g, "bar", "fooa foo foo"); //=> 'bara bar bar'
+//find
+const findpractice = [
+    { a: 1, b: 0 },
+    { a: 1, b: 1 },
+];
+ramda_1.default.find(ramda_1.default.propEq("a", 1))(findpractice);
+ramda_1.default.findLast(ramda_1.default.propEq("a", 1))(findpractice);
+// const func = (x) => x==2;
+ramda_1.default.find((x) => x == 2)([1, 2, 3, 4, 5]);
+ramda_1.default.findIndex((x) => x == 2, [-1, -2, 2, 3, 4, 5, 2]);
+ramda_1.default.findLastIndex((x) => x == 2, [-1, -2, 2, 3, 4, 5, 2]);
+//group
+const students = [
+    { name: "Abby", score: 84 },
+    { name: "Eddy", score: 58 },
+    { name: "Jack", score: 69 },
+];
+const byGrade = ramda_1.default.groupBy(function (student) {
+    const score = student.score;
+    return score < 65
+        ? "F"
+        : score < 70
+            ? "D"
+            : score < 80
+                ? "C"
+                : score < 90
+                    ? "B"
+                    : "A";
+});
+// console.log(byGrade(students));
+const similarity = [0, 1, 3, 4, 2, 5];
+ramda_1.default.groupWith((a, b) => a + 1 === b, similarity);
+ramda_1.default.includes(5, [1, 2, 3]);
+ramda_1.default.includes({ name: "Abby", score: 84 }, students);
+ramda_1.default.ifElse((a) => a < 10, ramda_1.default.inc, ramda_1.default.dec)(8);
+p = ramda_1.default.uniqWith(ramda_1.default.eqBy(String))([1, 1, 1, 1, 2, 3, 1, 1, 1, 1, 4]);
 console.log(p);

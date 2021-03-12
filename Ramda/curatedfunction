@@ -2,6 +2,7 @@ subtract
 add
 dec
 multiply
+divide
 flip ,(__) --> order the parameter (prefer : __)
 adjust --> change with index
 equals --> define some const
@@ -103,3 +104,22 @@ Output :
 **************
 
 filter --> (fn,arr) ==> function return boolean (filter accordingly condition)
+
+replace --> only first occurance (you can use regex also)
+        --> /g --> all occurance
+
+find -->
+  find --> find first occurance
+  findLast --> find last occurance 
+      -->return object or undefined
+  findIndex --> return first ocuurance index or -1
+  findLastIndex --> return last occurance indexe or -1
+
+group -->
+  groupBy --> group according to similer property (followed according to condition)
+  groupWith --> group with (follow a function condition) consecutive elements
+
+includes --> return boolean : check includes in set of arr
+ifElse --> (cond,truthyfunc,falsyfunc)
+
+uniqWith --> create a set from array
