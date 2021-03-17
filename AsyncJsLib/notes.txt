@@ -1,0 +1,7 @@
+parallel => [function,...]
+    if there are any error than stop executing from there.
+
+series => it's work sync
+auto => when function execute than run
+waterfall => series with passing args
+queue => same as parallel however it's takes concurrancy
