@@ -1,0 +1,130 @@
+
+#    find & projection
+
+db.inventory.insertMany([
+...    { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
+...    { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "A" },
+...    { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D" },
+...    { item: "planner", qty: 75, size: { h: 22.85, w: 30, uom: "cm" }, status: "D" },
+...    { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A" }
+... ]);
+
+[Query]
+-db.inventory.find()
+-db.inventory.find({"size.w" : 11},{"item":1,"size":1})
+
+#    array find
+db.inventory.insertMany( [
+...    { item: "journal", instock: [ { warehouse: "A", qty: 5 }, { warehouse: "C", qty: 15 } ] },
+...    { item: "notebook", instock: [ { warehouse: "C", qty: 5 } ] },
+...    { item: "paper", instock: [ { warehouse: "A", qty: 60 }, { warehouse: "B", qty: 15 } ] },
+...    { item: "planner", instock: [ { warehouse: "A", qty: 40 }, { warehouse: "B", qty: 5 } ] },
+...    { item: "postcard", instock: [ { warehouse: "B", qty: 15 }, { warehouse: "C", qty: 35 } ] }
+... ]);
+[Query]
+-db.inventory.find( { "instock": { warehouse: "A", qty: 5 } } )
+	-array object sequence matter
+
+#    Update
+db.inventory.insertMany( [
+   { item: "canvas", qty: 100, size: { h: 28, w: 35.5, uom: "cm" }, status: "A" },
+   { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
+   { item: "mat", qty: 85, size: { h: 27.9, w: 35.5, uom: "cm" }, status: "A" },
+   { item: "mousepad", qty: 25, size: { h: 19, w: 22.85, uom: "cm" }, status: "P" },
+   { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "P" },
+   { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D" },
+   { item: "planner", qty: 75, size: { h: 22.85, w: 30, uom: "cm" }, status: "D" },
+   { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A" },
+   { item: "sketchbook", qty: 80, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
+   { item: "sketch pad", qty: 95, size: { h: 22.85, w: 30.5, uom: "cm" }, status: "A" }
+] );
+[Query]
+-db.inventory.updateOne(   { item: "paper" },   {    $set: { "size.uom": "cm", status: "P" },     $currentDate: { lastModified: true }   })
+
+#   DeleteMany
+[Query]
+-db.inventory.delete({item : "paper"})
+
+#   Aggregate
+[Query]
+-db.inventory.count({status : "A"})
+-db.inventory.distinct("status")
+
+#   Geospatial
+[{
+  "_id": {
+    "$oid": "604b33242368ca182f2c6ef4"
+  },
+  "name": "Stow Lake Boathouse",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.4928221,
+      7.771313
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "604b33552368ca182f2c6ef5"
+  },
+  "name": "Conservatory of Flowers",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.46025,
+      37.77261
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "604b33892368ca182f2c6ef7"
+  },
+  "name": "Structural Maintenance Division - Nursery & Receiving",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.4782738,
+      37.7707787
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "604b33bf2368ca182f2c6ef9"
+  },
+  "name": "Han Il Kwan",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.4782738,
+      37.7707787
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6051863d6a74491de89b697c"
+  },
+  "name": "California Academy of Sciences",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.46636,
+      37.77014
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6051867d6a74491de89b697d"
+  },
+  "name": "ARCO",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.4425607,
+      37.7746082
+    ]
+  }
+}]
+
+[query]
+-db.places.find({location : {$near : {$maxDistance : 100000, $geometry  : { type : "Point" , coordinates : [-122.4,7.7 ] }}}})
+
